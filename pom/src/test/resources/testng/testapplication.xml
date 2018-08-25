@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ServusTests">
+	<parameter name="browser" value="chrome"/>
+	<parameter name="url" value="\\src\\main\\resources\\testapplication\\index.html"/>
+	<test name = "TS001">
+		<classes>
+			<class name="com.index.testapplication.TestOne" />
+			<class name="com.index.testapplication.TestTwo" />
+			<class name="com.index.testapplication.TestThree" />
+			<class name="com.index.testapplication.TestFour" />
+			<class name="com.index.testapplication.TestFive" />
+			<class name="com.index.testapplication.TestSix" />
+		</classes>
+	</test>
+</suite>

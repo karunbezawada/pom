@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="18" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ServusTests" duration-ms="169132" started-at="2018-08-25T20:10:38Z" finished-at="2018-08-25T20:13:27Z">
+    <groups>
+    </groups>
+    <test name="TS001" duration-ms="169132" started-at="2018-08-25T20:10:38Z" finished-at="2018-08-25T20:13:27Z">
+      <class name="com.index.testapplication.TestSix">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.index.testapplication.TestSix@4590c9c3]" name="openApplication" is-config="true" duration-ms="6116" started-at="2018-08-25T20:13:14Z" finished-at="2018-08-25T20:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\src\\main\\resources\\testapplication\\index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="getTCData()[pri:0, instance:com.index.testapplication.TestSix@4590c9c3]" name="getTCData" is-config="true" duration-ms="160" started-at="2018-08-25T20:13:21Z" finished-at="2018-08-25T20:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCData -->
+        <test-method status="PASS" signature="validateTable()[pri:0, instance:com.index.testapplication.TestSix@4590c9c3]" name="validateTable" duration-ms="4933" started-at="2018-08-25T20:13:21Z" finished-at="2018-08-25T20:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTable -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.index.testapplication.TestSix@4590c9c3]" name="closeApplication" is-config="true" duration-ms="1042" started-at="2018-08-25T20:13:26Z" finished-at="2018-08-25T20:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.index.testapplication.TestSix -->
+      <class name="com.index.testapplication.TestFive">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.index.testapplication.TestFive@b97c004]" name="openApplication" is-config="true" duration-ms="7591" started-at="2018-08-25T20:12:46Z" finished-at="2018-08-25T20:12:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\src\\main\\resources\\testapplication\\index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="getTCData()[pri:0, instance:com.index.testapplication.TestFive@b97c004]" name="getTCData" is-config="true" duration-ms="221" started-at="2018-08-25T20:12:54Z" finished-at="2018-08-25T20:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCData -->
+        <test-method status="PASS" signature="validateConfirmMsg()[pri:0, instance:com.index.testapplication.TestFive@b97c004]" name="validateConfirmMsg" duration-ms="19181" started-at="2018-08-25T20:12:54Z" finished-at="2018-08-25T20:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateConfirmMsg -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.index.testapplication.TestFive@b97c004]" name="closeApplication" is-config="true" duration-ms="1046" started-at="2018-08-25T20:13:13Z" finished-at="2018-08-25T20:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.index.testapplication.TestFive -->
+      <class name="com.index.testapplication.TestTwo">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.index.testapplication.TestTwo@7946e1f4]" name="openApplication" is-config="true" duration-ms="6058" started-at="2018-08-25T20:12:00Z" finished-at="2018-08-25T20:12:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\src\\main\\resources\\testapplication\\index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="getTCData()[pri:0, instance:com.index.testapplication.TestTwo@7946e1f4]" name="getTCData" is-config="true" duration-ms="167" started-at="2018-08-25T20:12:06Z" finished-at="2018-08-25T20:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCData -->
+        <test-method status="PASS" signature="validateListItems()[pri:0, instance:com.index.testapplication.TestTwo@7946e1f4]" name="validateListItems" duration-ms="4316" started-at="2018-08-25T20:12:06Z" finished-at="2018-08-25T20:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateListItems -->
+        <test-method status="PASS" signature="getTCData()[pri:0, instance:com.index.testapplication.TestTwo@7946e1f4]" name="getTCData" is-config="true" duration-ms="167" started-at="2018-08-25T20:12:11Z" finished-at="2018-08-25T20:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCData -->
+        <test-method status="PASS" signature="validateListItemValues()[pri:0, instance:com.index.testapplication.TestTwo@7946e1f4]" name="validateListItemValues" duration-ms="6936" started-at="2018-08-25T20:12:11Z" depends-on-methods="com.index.testapplication.TestTwo.validateListItems" finished-at="2018-08-25T20:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateListItemValues -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.index.testapplication.TestTwo@7946e1f4]" name="closeApplication" is-config="true" duration-ms="989" started-at="2018-08-25T20:12:18Z" finished-at="2018-08-25T20:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.index.testapplication.TestTwo -->
+      <class name="com.index.testapplication.TestThree">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.index.testapplication.TestThree@3c09711b]" name="openApplication" is-config="true" duration-ms="5823" started-at="2018-08-25T20:12:19Z" finished-at="2018-08-25T20:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\src\\main\\resources\\testapplication\\index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="getTCData()[pri:0, instance:com.index.testapplication.TestThree@3c09711b]" name="getTCData" is-config="true" duration-ms="210" started-at="2018-08-25T20:12:25Z" finished-at="2018-08-25T20:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCData -->
+        <test-method status="PASS" signature="validateDropdownValues()[pri:0, instance:com.index.testapplication.TestThree@3c09711b]" name="validateDropdownValues" duration-ms="8007" started-at="2018-08-25T20:12:25Z" finished-at="2018-08-25T20:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDropdownValues -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.index.testapplication.TestThree@3c09711b]" name="closeApplication" is-config="true" duration-ms="1070" started-at="2018-08-25T20:12:33Z" finished-at="2018-08-25T20:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.index.testapplication.TestThree -->
+      <class name="com.index.testapplication.TestFour">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.index.testapplication.TestFour@5cc7c2a6]" name="openApplication" is-config="true" duration-ms="6417" started-at="2018-08-25T20:12:34Z" finished-at="2018-08-25T20:12:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\src\\main\\resources\\testapplication\\index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="validateButtons()[pri:0, instance:com.index.testapplication.TestFour@5cc7c2a6]" name="validateButtons" duration-ms="4991" started-at="2018-08-25T20:12:40Z" finished-at="2018-08-25T20:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateButtons -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.index.testapplication.TestFour@5cc7c2a6]" name="closeApplication" is-config="true" duration-ms="1132" started-at="2018-08-25T20:12:45Z" finished-at="2018-08-25T20:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.index.testapplication.TestFour -->
+      <class name="com.index.testapplication.TestOne">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.index.testapplication.TestOne@6276ae34]" name="startReport" is-config="true" duration-ms="380" started-at="2018-08-25T20:10:37Z" finished-at="2018-08-25T20:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.index.testapplication.TestOne@6276ae34]" name="openApplication" is-config="true" duration-ms="8000" started-at="2018-08-25T20:10:38Z" finished-at="2018-08-25T20:10:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[\\src\\main\\resources\\testapplication\\index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="getTCData()[pri:0, instance:com.index.testapplication.TestOne@6276ae34]" name="getTCData" is-config="true" duration-ms="1500" started-at="2018-08-25T20:10:46Z" finished-at="2018-08-25T20:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCData -->
+        <test-method status="PASS" signature="validaeSignIn()[pri:0, instance:com.index.testapplication.TestOne@6276ae34]" name="validaeSignIn" duration-ms="9410" started-at="2018-08-25T20:10:47Z" finished-at="2018-08-25T20:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaeSignIn -->
+        <test-method status="PASS" signature="getTCData()[pri:0, instance:com.index.testapplication.TestOne@6276ae34]" name="getTCData" is-config="true" duration-ms="274" started-at="2018-08-25T20:10:56Z" finished-at="2018-08-25T20:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTCData -->
+        <test-method status="PASS" signature="validateWarningMsgs()[pri:0, instance:com.index.testapplication.TestOne@6276ae34]" name="validateWarningMsgs" duration-ms="62088" started-at="2018-08-25T20:10:57Z" depends-on-methods="com.index.testapplication.TestOne.validaeSignIn" finished-at="2018-08-25T20:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWarningMsgs -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.index.testapplication.TestOne@6276ae34]" name="closeApplication" is-config="true" duration-ms="1242" started-at="2018-08-25T20:11:59Z" finished-at="2018-08-25T20:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.index.testapplication.TestOne@6276ae34]" name="stopReport" is-config="true" duration-ms="1087" started-at="2018-08-25T20:13:27Z" finished-at="2018-08-25T20:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.index.testapplication.TestOne -->
+    </test> <!-- TS001 -->
+  </suite> <!-- ServusTests -->
+</testng-results>

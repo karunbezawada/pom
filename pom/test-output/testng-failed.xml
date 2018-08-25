@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.index.testapplication.TestTwo">
+        <methods>
+          <include name="validateListItems"/>
+          <include name="getTCData"/>
+          <include name="openApplication"/>
+          <include name="stopReport"/>
+          <include name="validateListItemValues"/>
+          <include name="startReport"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- com.index.testapplication.TestTwo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
